@@ -55,12 +55,17 @@ int open(const char *pathname, int flags, ...)
     if(strcmp (pathname,"/home/user1/.Xauthority") == 0)
         pathname = "/home/user2/.Xauthority";
 
+    // end prologue
+
+    // call the original function
     int result = orig_open(pathname,flags);
 
     // epilogue
 
     if (result != -1)
         LOG("successfully called as User2 open(\"%s\",%d) -> %d\n",pathname,flags,result);
+
+    // end epilogue
 
     return result;
 }
