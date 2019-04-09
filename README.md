@@ -48,6 +48,7 @@ orig_open_f_type orig_open = NULL;
 
 int open(const char *pathname, int flags, ...)
 {   
+    // Setup orig_open in order to contain the address of the original glibc open
     SETUP(orig_open,orig_open_f_type,"open");
 
     // prologue
@@ -67,6 +68,7 @@ int open(const char *pathname, int flags, ...)
 
     // end epilogue
 
+    // return the result
     return result;
 }
 ```
