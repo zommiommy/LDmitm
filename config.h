@@ -5,13 +5,18 @@
 #define CONFIG_FILE
 
 #define FOPEN
-//#define FWRITE
 #define FCLOSE
 
 #define OPEN
-//#define WRITE
 #define CLOSE
 
-//#define FREAD
-//#define READ
+
+#define SOCKET
+#define LISTEN
+#define CONNECT
+#define BIND
+#define ACCEPT
+
+#define EXECVE
+
 #endif

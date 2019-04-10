@@ -34,3 +34,27 @@
 #include "sys/fread.h"
 #endif
 
+#ifdef EXECVE
+#include "sys/execve.h"
+#endif
+
+#ifdef SOCKET
+#include "sys/socket.h"
+#endif
+
+#ifdef ACCEPT
+#include "sys/accept.h"
+#endif
+
+#ifdef CONNECT
+#include "sys/connect.h"
+#endif
+
+#ifdef BIND
+#include "sys/bind.h"
+#endif
+
+#ifdef LISTEN
+#include "sys/listen.h"
+#endif
+
