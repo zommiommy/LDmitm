@@ -45,6 +45,14 @@
 #include "sys/system/execve.h"
 #endif
 
+#ifdef SETGID
+#include "sys/system/setgid.h"
+#endif
+
+#ifdef SETUID
+#include "sys/system/setuid.h"
+#endif
+
 // SOCKET
 
 #ifdef SOCKET
