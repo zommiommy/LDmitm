@@ -1,4 +1,4 @@
-#include "../core.h"
+#include "../../core.h"
 
 typedef FILE *(*orig_fopen_f_type)(const char *filename, const char *mode);
 orig_fopen_f_type orig_fopen = NULL;

@@ -1,4 +1,4 @@
-#include "../core.h"
+#include "../../core.h"
 
 typedef  ssize_t (*orig_write_f_type)(int fd, const void *buf, size_t nbytes);
 orig_write_f_type orig_write = NULL;

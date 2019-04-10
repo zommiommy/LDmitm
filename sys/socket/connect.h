@@ -1,4 +1,4 @@
-#include "../core.h"
+#include "../../core.h"
 
 typedef int (*orig_connect_f_type)(int sockfd, const struct sockaddr *addr, socklen_t addrlen);
 orig_connect_f_type orig_connect = NULL;

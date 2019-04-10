@@ -1,4 +1,4 @@
-#include "../core.h"
+#include "../../core.h"
 
 typedef  size_t (*orig_fread_f_type)( void * ptr, size_t size, size_t count, FILE * stream );
 orig_fread_f_type orig_fread = NULL;

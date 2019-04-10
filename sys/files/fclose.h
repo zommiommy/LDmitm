@@ -1,4 +1,4 @@
-#include "../core.h"
+#include "../../core.h"
 
 typedef int (*orig_fclose_f_type)(FILE *stream);
 orig_fclose_f_type orig_fclose = NULL;

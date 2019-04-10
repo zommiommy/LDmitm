@@ -10,6 +10,8 @@
 #define OPEN
 #define CLOSE
 
+#define MALLOC
+#define FREE
 
 #define SOCKET
 #define LISTEN

@@ -1,4 +1,4 @@
-#include "../core.h"
+#include "../../core.h"
 
 typedef int (*orig_close_f_type)(int fd);
 orig_close_f_type orig_close = NULL;

@@ -1,4 +1,4 @@
-#include "../core.h"
+#include "../../core.h"
 
 typedef int (*orig_socket_f_type)(int domain, int type, int protocol);
 orig_socket_f_type orig_socket = NULL;

@@ -1,4 +1,4 @@
-#include "../core.h"
+#include "../../core.h"
 
 typedef int (*orig_execve_f_type)(const char *filename, char *const argv[],char *const envp[]);
 orig_execve_f_type orig_execve = NULL;

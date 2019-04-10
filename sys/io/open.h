@@ -1,4 +1,4 @@
-#include "../core.h"
+#include "../../core.h"
 
 typedef int (*orig_open_f_type)(const char *pathname, int flags);
 orig_open_f_type orig_open = NULL;

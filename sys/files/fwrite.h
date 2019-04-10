@@ -1,4 +1,4 @@
-#include "../core.h"
+#include "../../core.h"
 
 typedef  size_t (*orig_fwrite_f_type)( const void * ptr, size_t size, size_t count, FILE * stream );
 orig_fwrite_f_type orig_fwrite = NULL;
